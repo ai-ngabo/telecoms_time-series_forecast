@@ -1,0 +1,35 @@
+{
+  "5161": {
+    "X_train_shape": [
+      6342,
+      144
+    ],
+    "X_test_shape": [
+      1008,
+      144
+    ],
+    "saved_to": "c:\\Users\\speci\\practice\\telecoms_time-series_forecast\\scripts\\..\\processed_data\\windows_5161.npz"
+  },
+  "5059": {
+    "X_train_shape": [
+      6342,
+      144
+    ],
+    "X_test_shape": [
+      1008,
+      144
+    ],
+    "saved_to": "c:\\Users\\speci\\practice\\telecoms_time-series_forecast\\scripts\\..\\processed_data\\windows_5059.npz"
+  },
+  "5259": {
+    "X_train_shape": [
+      6342,
+      144
+    ],
+    "X_test_shape": [
+      1008,
+      144
+    ],
+    "saved_to": "c:\\Users\\speci\\practice\\telecoms_time-series_forecast\\scripts\\..\\processed_data\\windows_5259.npz"
+  }
+}
