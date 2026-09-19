@@ -1,0 +1,4 @@
+Model,"Avg train time (s, across 3 areas)","Avg inference time (s, full test set, across 3 areas)"
+SARIMA,8.647712044443729,63.88148874444758
+GRU,224.6019834333371,0.372313955546512
+LightGBM,0.3299593000103616,0.005785677776051064
