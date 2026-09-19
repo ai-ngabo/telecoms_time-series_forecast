@@ -1,0 +1,26 @@
+{
+  "raw_series": {
+    "adf_statistic": -19.130737704814788,
+    "p_value": 0.0,
+    "n_lags_used": 36,
+    "n_obs": 8747,
+    "critical_values": {
+      "1%": -3.43109782440793,
+      "5%": -2.8618704886904087,
+      "10%": -2.5669459141578455
+    },
+    "stationary_at_5pct": true
+  },
+  "stl_residual": {
+    "adf_statistic": -12.098934172357692,
+    "p_value": 2.0396159559359723e-22,
+    "n_lags_used": 33,
+    "n_obs": 8750,
+    "critical_values": {
+      "1%": -3.431097567935713,
+      "5%": -2.8618703753609926,
+      "10%": -2.566945853831837
+    },
+    "stationary_at_5pct": true
+  }
+}
