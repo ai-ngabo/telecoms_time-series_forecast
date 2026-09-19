@@ -1,0 +1,16 @@
+pandas>=2.0
+numpy>=1.24
+pyarrow>=14.0
+psutil>=5.9
+matplotlib>=3.7
+statsmodels>=0.14
+scikit-learn>=1.3
+pmdarima>=2.0          # SARIMA order search (auto_arima)
+lightgbm>=4.0           # LightGBM model + hyperparameter tuning
+torch>=2.0               # GRU model (CPU-only build is sufficient; no GPU required)
+geopandas>=0.14           # spatial_analysis.py (Figure 2: Milan grid choropleth map)
+jupyter>=1.0             # to open/run the notebooks
+ipykernel>=6.0            # required for the venv to appear as a Jupyter kernel
+nbformat>=5.9              # only needed if regenerating notebooks programmatically
+nbconvert>=7.0               # only needed if executing notebooks from the command line
+ 
