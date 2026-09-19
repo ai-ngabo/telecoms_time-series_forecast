@@ -1,0 +1,41 @@
+{
+  "model": "GRU",
+  "architecture": {
+    "hidden_units": 64,
+    "n_layers": 1,
+    "window_p": 144
+  },
+  "training_config": {
+    "max_epochs": 30,
+    "patience": 5,
+    "batch_size": 256,
+    "learning_rate": 0.001,
+    "actual_epochs_run": 30,
+    "best_val_loss": 0.0007206753944046795
+  },
+  "area_id": "5259",
+  "metrics": {
+    "MAE": 75.19357667982601,
+    "MAPE": 9.286523727412357,
+    "RMSE": 104.63350498635897,
+    "MASE": 0.14393937009617871
+  },
+  "train_timing": {
+    "n_runs": 1,
+    "mean_seconds": 296.6173551999964,
+    "std_seconds": 0.0,
+    "all_runs_seconds": [
+      296.6173551999964
+    ]
+  },
+  "inference_timing": {
+    "n_runs": 3,
+    "mean_seconds": 0.6283075333340093,
+    "std_seconds": 0.18916911652484364,
+    "all_runs_seconds": [
+      0.8936871000332758,
+      0.5249041999923065,
+      0.46633129997644573
+    ]
+  }
+}
