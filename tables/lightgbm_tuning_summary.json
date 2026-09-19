@@ -1,0 +1,24 @@
+{
+  "model": "LightGBM",
+  "area_id": "5161",
+  "grid": {
+    "num_leaves": [
+      15,
+      31,
+      63
+    ],
+    "learning_rate": [
+      0.01,
+      0.05,
+      0.1
+    ]
+  },
+  "n_configs_tried": 9,
+  "best_config": {
+    "num_leaves": 15.0,
+    "learning_rate": 0.1,
+    "best_iteration": 48.0,
+    "val_RMSE": 185.3897520267433
+  },
+  "reasoning": "Grid search over 9 (num_leaves x learning_rate) combinations on the validation split of Square 5161. The best configuration (num_leaves=15, learning_rate=0.1) achieved the lowest validation RMSE (185.390). The default configuration used in the main Phase 4 results (num_leaves=31, learning_rate=0.05) achieved val_RMSE=187.335, 1.0% worse than the best found. This difference is small enough that the default was retained for the final results."
+}
