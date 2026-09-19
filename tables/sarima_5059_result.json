@@ -1,0 +1,37 @@
+{
+  "model": "SARIMA",
+  "implementation_note": "seasonal differencing at lag=144 + non-seasonal ARMA (native seasonal state-space was intractable on CPU; see module docstring)",
+  "area_id": "5059",
+  "arma_order": [
+    4,
+    0,
+    3
+  ],
+  "seasonal_lag": 144,
+  "metrics": {
+    "MAE": 91.98322711059717,
+    "MAPE": 9.254519530738172,
+    "RMSE": 131.003521462321,
+    "MASE": 0.3522558611188761
+  },
+  "train_timing": {
+    "n_runs": 3,
+    "mean_seconds": 15.461494433344342,
+    "std_seconds": 2.639352145407295,
+    "all_runs_seconds": [
+      19.12718860001769,
+      14.237978400022257,
+      13.01931629999308
+    ]
+  },
+  "inference_timing": {
+    "n_runs": 3,
+    "mean_seconds": 63.666787333320826,
+    "std_seconds": 5.332149051930068,
+    "all_runs_seconds": [
+      66.89435299998149,
+      67.95510880002985,
+      56.15090019995114
+    ]
+  }
+}
