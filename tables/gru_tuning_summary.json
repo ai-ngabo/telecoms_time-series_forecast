@@ -1,0 +1,23 @@
+{
+  "model": "GRU",
+  "area_id": "5161",
+  "grid": {
+    "hidden_units": [
+      32,
+      64
+    ],
+    "learning_rate": [
+      0.001,
+      0.0005
+    ]
+  },
+  "tuning_max_epochs": 15,
+  "n_configs_tried": 4,
+  "best_config": {
+    "hidden_units": 64.0,
+    "learning_rate": 0.001,
+    "epochs_run": 15.0,
+    "val_RMSE": 173.17224249384796
+  },
+  "reasoning": "Grid search over 4 (hidden_units x learning_rate) combinations, each trained with a reduced 15-epoch ceiling (sufficient for relative ranking, not full convergence) on the validation split of Square 5161. The best configuration (hidden_units=64, learning_rate=0.001) achieved val_RMSE=173.172. The default used in the main Phase 4 results (hidden_units=64, learning_rate=0.001) achieved val_RMSE=173.172, 0.0% better than the best found. This difference is small enough that the default (64 units) was retained, consistent with the Section 3 efficiency-trade-off justification for GRU over LSTM."
+}
