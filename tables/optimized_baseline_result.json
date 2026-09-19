@@ -1,0 +1,19 @@
+{
+  "stage": "optimized_chunked_load",
+  "rows_out": 1439982,
+  "columns": [
+    "square_id",
+    "time_interval_ms",
+    "internet"
+  ],
+  "dtypes": {
+    "square_id": "uint16",
+    "time_interval_ms": "int64",
+    "internet": "float32"
+  },
+  "pandas_reported_memory_mb": 20.15988,
+  "baseline_rss_mb": 79.40234375,
+  "peak_rss_mb": 255.33984375,
+  "delta_rss_mb": 175.9375,
+  "parquet_file_size_mb": 6.874406
+}

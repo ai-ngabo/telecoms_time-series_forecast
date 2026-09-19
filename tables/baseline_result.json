@@ -1,0 +1,28 @@
+{
+  "stage": "baseline_naive_load",
+  "rows": 4842625,
+  "columns": [
+    "square_id",
+    "time_ms",
+    "country_code",
+    "sms_in",
+    "sms_out",
+    "call_in",
+    "call_out",
+    "internet"
+  ],
+  "dtypes": {
+    "square_id": "int64",
+    "time_ms": "int64",
+    "country_code": "int64",
+    "sms_in": "float64",
+    "sms_out": "float64",
+    "call_in": "float64",
+    "call_out": "float64",
+    "internet": "float64"
+  },
+  "pandas_reported_memory_mb": 309.928132,
+  "baseline_rss_mb": 79.1171875,
+  "peak_rss_mb": 451.5859375,
+  "delta_rss_mb": 372.46875
+}
