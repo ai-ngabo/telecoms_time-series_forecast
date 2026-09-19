@@ -1,0 +1,9 @@
+{
+  "model": "SARIMA",
+  "area_id": "5161",
+  "search_method": "pmdarima auto_arima (stepwise, AIC-selected)",
+  "n_candidates_evaluated": 13,
+  "best_order": "(3,0,1)",
+  "best_AIC": -23766.616,
+  "reasoning": "pmdarima's stepwise auto_arima search evaluated 13 candidate non-seasonal ARMA(p,q) orders (searched on the seasonally-differenced series, see sarima.py's module docstring for why native seasonal SARIMAX was computationally intractable) on Square 5161's training data, selecting by AIC (Akaike Information Criterion -- balances model fit against complexity, penalizing unnecessary extra parameters). The selected order (3,0,1) achieved the lowest AIC (-23766.616) among all candidates tried, and was used for the final Phase 4 SARIMA results on this area."
+}
