@@ -1,0 +1,53 @@
+{
+  "model": "LightGBM",
+  "features": [
+    "lag_1",
+    "lag_2",
+    "lag_3",
+    "lag_144",
+    "rolling_mean_144",
+    "rolling_std_144",
+    "rolling_min_144",
+    "rolling_max_144",
+    "last_value"
+  ],
+  "feature_importance": {
+    "lag_1": 635,
+    "lag_2": 360,
+    "lag_3": 361,
+    "lag_144": 516,
+    "rolling_mean_144": 266,
+    "rolling_std_144": 305,
+    "rolling_min_144": 253,
+    "rolling_max_144": 184,
+    "last_value": 0
+  },
+  "best_iteration": 96,
+  "area_id": "5161",
+  "metrics": {
+    "MAE": 104.85294178040965,
+    "MAPE": 11.74005803098295,
+    "RMSE": 150.3078439627005,
+    "MASE": 0.30941274377286154
+  },
+  "train_timing": {
+    "n_runs": 3,
+    "mean_seconds": 0.22120130001955354,
+    "std_seconds": 0.020284244245817946,
+    "all_runs_seconds": [
+      0.22918640001444146,
+      0.19334759999765083,
+      0.24106990004656836
+    ]
+  },
+  "inference_timing": {
+    "n_runs": 3,
+    "mean_seconds": 0.006693300014982621,
+    "std_seconds": 0.002343429183997738,
+    "all_runs_seconds": [
+      0.00942449999274686,
+      0.006953400035854429,
+      0.003702000016346574
+    ]
+  }
+}
