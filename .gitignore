@@ -1,0 +1,26 @@
+# Virtual environment
+venv/
+__pycache__/
+*.pyc
+
+#The processed dataset can always be rebuilt from the raw data and scripts described in the README. 
+# Some output files (like full_wide_matrix.parquet, ~480MB) are too large for GitHub’s 100MB per-file limit, 
+#so they shouldn’t be pushed.
+
+processed_data/
+ 
+#The full raw dataset (~19GB) is never committed to the repository. 
+#Only a few small sample files are intentionally included, as explained in the README’s Data section. 
+
+telecom_italia/data_2013_november/*.txt
+telecom_italia/data_2013_december/*.txt
+telecom_italia/data_2014_january/*.txt
+
+# Explicit exceptions - the handful of sample files actually committed:
+!telecom_italia/data_2013_november/sms-call-internet-mi-2013-11-01.txt
+ 
+ 
+# OS/editor cruft
+.DS_Store
+Thumbs.db
+.ipynb_checkpoints/
